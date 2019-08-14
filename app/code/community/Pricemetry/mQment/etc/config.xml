@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Pricemetry_mQment extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Pricemetry
+ * @package        Pricemetry_mQment
+ * @copyright      Copyright (c) 2014
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <Pricemetry_mQment>
+            <version>0.0.1</version>
+        </Pricemetry_mQment>
+    </modules>
+    <frontend> 
+        <layout>
+            <updates>
+                <mQment>
+                    <file>mQment.xml</file>
+                </mQment>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <helpers>
+            <mQment>
+                <class>Pricemetry_mQment_Helper</class>
+            </mQment>
+        </helpers>
+        <blocks>
+             <pricemetry>
+                <class>Pricemetry_mQment_Block</class>
+             </pricemetry>
+        </blocks>
+    </global>
+    <adminhtml>
+      <acl>
+        <resources>
+          <admin>
+            <children>
+              <system>
+                <children>
+                  <config>
+                    <children>
+                      <mQment_options>
+                          <title>mQment configuration section</title>
+                      </mQment_options>
+                    </children>
+                  </config>
+                </children>
+              </system>
+            </children>
+          </admin>
+        </resources>
+      </acl>
+    </adminhtml>
+    <default>
+    <mQment_options>
+     <general translate="general" module="mQment">
+        <enabled>1</enabled>
+       <label_button>Surveillez le prix</label_button>
+       <style>clear: left; margin-bottom:10px;</style>
+     </general>
+   </mQment_options>
+  </default>
+</config>

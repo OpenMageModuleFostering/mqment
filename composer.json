@@ -1,0 +1,18 @@
+{
+    "name": "OpenMageModuleFostering/mQment",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License",
+    "homepage": "",
+    "description": "Transformez vos visiteurs en clients.
+Imaginez votre site capable d'agir en temps réel et de manière personnalisée 
+aux comportements de vos visiteurs. ",
+    "authors": [
+    {
+        "name": "Samuel Roy",
+        "email": "sam@pricemetry.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

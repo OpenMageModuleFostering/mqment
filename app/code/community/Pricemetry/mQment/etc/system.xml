@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<config>
+  <sections>
+    <mQment_options translate="label" module="mQment">
+      <label>mQment - configuration</label>
+      <tab>general</tab>
+      <sort_order>10000</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>                    
+      <groups>
+        <general translate="label">
+          <label>Bouton Pricemetry</label>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>   
+          <comment>
+                    <![CDATA[
+                            <div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
+                            Ce module est développé par <a href="http://www.mQment.com" target="_blank">mQment.com</a>.
+                            <br>
+                            Vous pouvez désactiver l'affichage du bouton Pricemetry ici et créer un widget si vous souhaitez le positionner ailleurs.
+                            </div>
+                    ]]>
+          </comment>             
+          <fields>
+            <enabled>
+              <label>Affichage du bouton</label>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_enabledisable</source_model>
+              <sort_order>1</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>                    
+            </enabled>
+            <label_button>
+              <label>Libellé</label>
+              <sort_order>2</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>                    
+            </label_button>
+            <style>
+              <label>Ajustements CSS</label>
+              <sort_order>3</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>                    
+            </style>
+          </fields>
+        </general>
+      </groups>
+    </mQment_options>
+  </sections> 
+</config>
