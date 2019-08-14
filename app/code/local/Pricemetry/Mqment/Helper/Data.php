@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?php
 /**
  * Pricemetry_mQment extension
  * 
@@ -15,12 +14,13 @@
  * @copyright      Copyright (c) 2014
  * @license        http://opensource.org/licenses/mit-license.php MIT License
  */
--->
-<config>
-    <modules>
-        <Pricemetry_mQment>
-            <active>true</active>
-            <codePool>community</codePool>
-        </Pricemetry_mQment>
-    </modules>
-</config>
+/**
+ * mQment default helper
+ *
+ * @category    Pricemetry
+ * @package     Pricemetry_mQment
+ * @author      Pricemetry
+ */
+class Pricemetry_Mqment_Helper_Data
+    extends Mage_Core_Helper_Abstract {
+}

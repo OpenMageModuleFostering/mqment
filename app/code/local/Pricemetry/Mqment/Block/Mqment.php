@@ -12,7 +12,7 @@ class Pricemetry_Mqment_Block_Mqment
     protected function _toHtml()
     {
 
-        return '<div id="pm-widget-container" data-label="'.Mage::getStoreConfig('mQment_options/general/label_button').'" style="'.Mage::getStoreConfig('mQment_options/general/style').'"></div>
+        return '<div id="pm-widget-container" data-label="'.Mage::getStoreConfig('mqment_options/general/label_button').'" style="'.Mage::getStoreConfig('mqment_options/general/style').'"></div>
                 ';
     }
 }

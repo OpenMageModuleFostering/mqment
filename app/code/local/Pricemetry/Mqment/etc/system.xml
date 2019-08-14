@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config>
   <sections>
-    <mQment_options translate="label" module="mQment">
+    <mqment_options translate="label" module="mqment">
       <label>mQment - configuration</label>
       <tab>general</tab>
       <sort_order>10000</sort_order>
@@ -18,7 +18,7 @@
           <comment>
                     <![CDATA[
                             <div style="padding:10px;background-color:#fff;border:1px solid #ddd;margin-bottom:7px;">
-                            Ce module est développé par <a href="http://www.mQment.com" target="_blank">mQment.com</a>.
+                            Ce module est développé par <a href="http://www.mqment.com" target="_blank">mQment.com</a>.
                             <br>
                             Vous pouvez désactiver l'affichage du bouton Pricemetry ici et créer un widget si vous souhaitez le positionner ailleurs.
                             </div>
@@ -51,6 +51,6 @@
           </fields>
         </general>
       </groups>
-    </mQment_options>
+    </mqment_options>
   </sections> 
 </config>

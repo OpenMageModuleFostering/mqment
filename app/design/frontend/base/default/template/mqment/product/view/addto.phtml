@@ -1,0 +1,7 @@
+<?php
+$display = '';
+if(Mage::getStoreConfig('mqment_options/general/enabled') != '1'){
+	$display = 'display:none;';
+}
+echo '<div id="pm-widget-container" data-label="'.Mage::getStoreConfig('mqment_options/general/label_button').'" style="'.$display.Mage::getStoreConfig('mqment_options/general/style').'"></div>';
+?>

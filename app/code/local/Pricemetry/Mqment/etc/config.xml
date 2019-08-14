@@ -18,29 +18,29 @@
 -->
 <config>
     <modules>
-        <Pricemetry_mQment>
+        <Pricemetry_Mqment>
             <version>0.0.1</version>
-        </Pricemetry_mQment>
+        </Pricemetry_Mqment>
     </modules>
     <frontend> 
         <layout>
             <updates>
-                <mQment>
-                    <file>mQment.xml</file>
-                </mQment>
+                <mqment>
+                    <file>mqment.xml</file>
+                </mqment>
             </updates>
         </layout>
     </frontend>
     <global>
         <helpers>
-            <mQment>
-                <class>Pricemetry_mQment_Helper</class>
-            </mQment>
+            <mqment>
+                <class>Pricemetry_mqment_Helper</class>
+            </mqment>
         </helpers>
         <blocks>
-             <pricemetry>
-                <class>Pricemetry_mQment_Block</class>
-             </pricemetry>
+             <mqment>
+                <class>Pricemetry_mqment_Block</class>
+             </mqment>
         </blocks>
     </global>
     <adminhtml>
@@ -52,9 +52,9 @@
                 <children>
                   <config>
                     <children>
-                      <mQment_options>
+                      <mqment_options>
                           <title>mQment configuration section</title>
-                      </mQment_options>
+                      </mqment_options>
                     </children>
                   </config>
                 </children>
@@ -65,12 +65,12 @@
       </acl>
     </adminhtml>
     <default>
-    <mQment_options>
-     <general translate="general" module="mQment">
-        <enabled>1</enabled>
+    <mqment_options>
+     <general translate="general" module="mqment">
+        <disabled>1</disabled>
        <label_button>Surveillez le prix</label_button>
        <style>clear: left; margin-bottom:10px;</style>
      </general>
-   </mQment_options>
+   </mqment_options>
   </default>
 </config>

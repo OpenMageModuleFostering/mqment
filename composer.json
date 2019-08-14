@@ -3,9 +3,7 @@
     "type": "magento-module",
     "license": "GNU-General-Public-License",
     "homepage": "",
-    "description": "Transformez vos visiteurs en clients.
-Imaginez votre site capable d'agir en temps réel et de manière personnalisée 
-aux comportements de vos visiteurs. ",
+    "description": "mQment transforme vos visiteurs en clients au bon moment, en un instant.",
     "authors": [
     {
         "name": "Samuel Roy",

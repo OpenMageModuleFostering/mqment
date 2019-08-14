@@ -1,25 +1,24 @@
 <?xml version="1.0"?>
 <package>
     <name>mQment</name>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license uri="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</license>
     <channel>community</channel>
     <extends/>
-    <summary>Transformez vos visiteurs en clients.&#xD;
-Imaginez votre site capable d'agir en temps r&#xE9;el et de mani&#xE8;re personnalis&#xE9;e &#xD;
-aux comportements de vos visiteurs. </summary>
+    <summary>mQment transforme vos visiteurs en clients au bon moment, en un instant.</summary>
     <description>Imaginez &#xEA;tre capable de d&#xE9;tecter en temps r&#xE9;el l'&#xE9;tat d'esprit de vos visiteurs pendant leur navigation sur votre boutique : l'un s'appr&#xEA;te &#xE0; abandonner le panier, l'autre h&#xE9;site sur une fiche produit et le troisi&#xE8;me est pr&#xEA;t &#xE0; commander. &#xD;
 Maintenant imaginez pouvoir r&#xE9;agir &#xE0; ces moments et envoyer &#xE0; ces visiteurs des messages personnalis&#xE9;s : r&#xE9;assurance sur la livraison, rappel du num&#xE9;ro de t&#xE9;l&#xE9;phone pour proposer son conseil, incitation &#xE0; ajouter plus de produits &#xE0; son panier, code de r&#xE9;duction au moment o&#xF9; il abandonne la page...&#xD;
 &#xD;
 mQment est une brique technologique, accompagn&#xE9;e de notre expertise e-commerce et d'une promesse, celle de booster votre chiffre d'affaire de 10% !&#xD;
 &#xD;
 Le module s'accompagne d'un tableau de bord qui vous permet de piloter mQment et d'en mesurer l'efficacit&#xE9;.</description>
-    <notes>mQment, now on Magento !</notes>
+    <notes>1.0.3 - Bypass Magento connect installer bug&#xD;
+1.0.4 - Link change to connect to our realtime engine.</notes>
     <authors><author><name>Samuel Roy</name><user>PricemetryApps</user><email>sam@pricemetry.com</email></author></authors>
-    <date>2014-10-03</date>
-    <time>13:00:41</time>
-    <contents><target name="magecommunity"><dir name="Pricemetry"><dir name="mQment"><dir name="Block"><file name="Mqment.php" hash="62804f069102a4cbff6c70d81ec0f240"/></dir><dir name="Helper"><file name="Data.php" hash="b31ab737a8e6553a72cdfd773eeb8e09"/></dir><dir name="etc"><file name="config.xml" hash="58c9156dcbcca5d61080c0940103b0fe"/><file name="system.xml" hash="ca6cc3a04fae7d09af9d8d576cb1638c"/><file name="widget.xml" hash="7aef52c73f8e2bc2facf4df69858bd0b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Pricemetry_mQment.xml" hash="776ba28bfef95eb5a9b20e8c235c81d2"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="mQment.xml" hash="5ad8bde1ad179285cfccd928f6f23393"/></dir><dir name="template"><dir name="mQment"><dir name="product"><dir name="view"><file name="addto.phtml" hash="43442e033d05054946cf5f03a4f39b56"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <date>2015-03-20</date>
+    <time>16:56:31</time>
+    <contents><target name="magelocal"><dir name="Pricemetry"><dir name="Mqment"><dir name="Block"><file name="Mqment.php" hash="02cf71f0f122b9d2d013e75bd99f8a84"/></dir><dir name="Helper"><file name="Data.php" hash="726898139046b59cb93469b67061dddb"/></dir><dir name="etc"><file name="config.xml" hash="1aebf82eb3d4e329ce94f1c00a43bb38"/><file name="system.xml" hash="5d0db70a93fcb98cc5f1e13106146c41"/><file name="widget.xml" hash="e75b3ea8f8df452244e1db45a40306e0"/></dir><file name=".DS_Store" hash="0e4a99269b8d23f7ed2103a61c136004"/></dir><file name=".DS_Store" hash="ecf707fe10db00fd23a07e28debe0bfd"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="mqment"><dir name="product"><dir name="view"><file name="addto.phtml" hash="db2c80399cc10c482cfafc1cbefe3091"/></dir><file name=".DS_Store" hash="6efebec0b7aa44ccb6877c10832d1b6a"/></dir><file name=".DS_Store" hash="a7b1164003783190f8151e23f8e2a84a"/></dir></dir><dir name="layout"><file name="mqment.xml" hash="fc3e854f085f8ba1966d6016e45b82df"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Pricemetry_Mqment.xml" hash="26892b8d01b7cf85815aac2d35cd823f"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.13</min><max>5.6.14</max></php></required></dependencies>
 </package>
