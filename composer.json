@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/mQment",
+    "name": "OpenMageModuleFostering\/mQment",
     "type": "magento-module",
     "license": "GNU-General-Public-License",
     "homepage": "",
     "description": "mQment transforme vos visiteurs en clients au bon moment, en un instant.",
     "authors": [
-    {
-        "name": "Samuel Roy",
-        "email": "sam@pricemetry.com"
-    }
-],
+        {
+            "name": "Samuel Roy",
+            "email": "sam@pricemetry.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
